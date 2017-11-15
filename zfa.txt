@@ -1,2 +1,9 @@
 zfaxiu
 djfjgkb
+使用git remote查看远程库，
+如果显示origin，
+则输入git remote rm origin
+再次使用git remote查看远程库，
+发现空，然后输入：
+git remote add github git@github.com:Rainben/littleboy.git
+即可关联以上的远程库
